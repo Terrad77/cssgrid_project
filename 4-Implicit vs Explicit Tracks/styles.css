@@ -1,0 +1,11 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 200px; /* для створення стлбців № 1, 2 */
+  grid-template-rows: 50px 100px; /* для створення рядків № 1, 2 */
+  grid-auto-rows: 400px 100px; /* для неявного створення усіх додаткових рядків за схемою 400/100 ... */
+}
