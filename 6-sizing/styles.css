@@ -1,0 +1,12 @@
+@import url(../basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  border: 10px solid #000;
+  /* grid-template-columns: 100px 150px 200px 250px; */
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  grid-template-columns: 150px auto 2fr 1fr;
+  gap: 20px;
+}
