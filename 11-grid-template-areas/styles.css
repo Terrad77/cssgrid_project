@@ -9,7 +9,7 @@
   gap: 20px;
   grid-template-areas:
     "h h h h"
-    "m m . s"
+    "m m . s" /*Порожня клітинка позначається крапкою*/
     "footer footer footer footer";
 }
 
