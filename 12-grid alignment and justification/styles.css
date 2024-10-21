@@ -1,0 +1,20 @@
+@import url(../basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid;
+  /* justify-items: stretch; */
+  /* align-items: stretch;   вирівнювання дочірніх елементів у сітці по вертикалі - ось Y */
+  /* justify-content: space-evenly; */
+  height: 500px;
+  /* align-content: space-evenly; */
+}
+
+._4 {
+  justify-self: end;
+  align-self: end;
+}
