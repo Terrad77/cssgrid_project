@@ -1,0 +1,13 @@
+@import url(../basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  border: 10px solid #000;
+  /* auto-fill, створюється якомога більше стовпців, які можуть вміститися в контейнер, навіть якщо ці стовпці пусті */
+  /* grid-template-columns: repeat(auto-fill, 150px); */
+
+  /*auto-fit, пусті стовпці (або рядки) будуть об'єднані, щоб елементи, які мають вміст, розтягувалися на ширину контейнера*/
+  grid-template-columns: repeat(auto-fit, 150px);
+}
